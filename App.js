@@ -23,7 +23,7 @@ btn.onclick = function () {
 
     const circle = document.createElement("div");
     circle.classList.add("circle");
-    circle.innerHTML = "✔";
+    circle.innerHTML = "x";
     circle.addEventListener("click", () => {
       document.getElementById("popup-1").classList.add("active");
       newTask.classList.add("delete");
